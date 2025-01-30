@@ -4,11 +4,16 @@ made by [Andrea Cen](https://github.com/an9rya), [Nicole Cui](https://github.com
 coded in C++, rendered using X11 Graphics.
 
 ## gameplay
-\[gameplay description]
+unlike tetris, players take turns dropping their block with no time restriction. core gameplay is similar to the original game with the addition of special actions that apply for one turn after a 2+ line clear: 
+- blind (which covers part of the opponent's board with question marks)
+- force (which changes the opponent's next block)
+- heavy (which makes the opponent's block fall faster)
 
 ## display
-\[display description]
+both text-based and graphics-based displays are supported, with the text-based display in the terminal and graphics-based display rendered with the XWindows library. 
 
-<img src="/images/display.png" width="1000"> 
+<picture>
+  <img alt="biquadris demo" src="/images/display.png" width="1000">
+</picture>
 
-> ### due to policy 71, the source code is only available upon request.
+> ### due to [policy 71](https://uwaterloo.ca/secretariat/policies-procedures-guidelines/policy-71), the source code is only available upon request.
