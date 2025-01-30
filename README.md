@@ -10,7 +10,6 @@ unlike tetris, players take turns dropping their block with no time restriction.
 - heavy (which makes the opponent's block fall faster)
 
 ## display
-\[display description]
 both text-based and graphics-based displays are supported, with the text-based display in the terminal and graphics-based display rendered with the XWindows library. 
 
 <picture>
