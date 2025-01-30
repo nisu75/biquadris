@@ -9,6 +9,10 @@ unlike tetris, players take turns dropping their block with no time restriction.
 - force (which changes the opponent's next block)
 - heavy (which makes the opponent's block fall faster)
 
+players score points based on the number of lines they clear in a single turn, with more points awarded for clearing multiple lines and at higher levels.
+
+as players increase their levels, the game becomes progressively harder and introduces new gameplay scenarios.
+
 ## display
 both text-based and graphics-based displays are supported, with the text-based display in the terminal and graphics-based display rendered with the XWindows library. 
 
